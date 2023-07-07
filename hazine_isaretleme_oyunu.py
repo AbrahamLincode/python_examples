@@ -15,7 +15,7 @@ for i in range(0,5):
 
     row = input("select row ?")
     match row:
-        case "1" | "2" | "3":
+        case    "1" | "2" | "3":
             position += row
         case _:
             print("please enter only values between 1 and 3")
