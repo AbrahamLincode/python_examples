@@ -1,11 +1,20 @@
-toplam = 0
-sart = True
-print("Toplama işlemi için lütfen sayı giriniz . Programdan çıkmak için 'ç' harfine basınız")
-
-while sart:
-    sayi = input("Toplam için sayı giriniz : ")
-    if  sayi.isdigit():
-        toplam += int(sayi) 
-        print(f"yeni toplam : {toplam}")
-    elif sayi == "ç":
-        sart = False
+while True:
+    sayi1 = int(input(" :"))
+    islem = input()
+    sonuc = 0
+    match islem:
+        case "+":
+            sayi2 =int(input(":"))
+            sonuc = sayi1 + sayi2
+        case "-":
+            sayi2 =int(input(":"))
+            sonuc = sayi1 - sayi2
+        case "*":
+            sayi2 =int(input(":"))
+            sonuc = sayi1 * sayi2
+        case "/":
+            sayi2 =int(input("/"))
+            sonuc = sayi1 + sayi2
+        case "ç":
+            break
+    print(sonuc)
