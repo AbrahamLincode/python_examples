@@ -37,5 +37,6 @@ while True:
             sonuc = sayi1 ** sayi2
             print(sonuc)
             sayi1 = sonuc
-
+        case _:
+            print("Geçerli bir işlem gir:")
             
