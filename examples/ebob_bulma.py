@@ -11,6 +11,6 @@ for test in range(num2,1,-1):
             ebob = test
             divisors.append(ebob)
 
-divisors.reverse()      
+divisors.reverse()
 print(ebob)
 print(divisors)
