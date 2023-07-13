@@ -1,3 +1,6 @@
+import deneme
+deneme.toplama()
+
 while True:
     sayi1 = input("Birinci Sayı :")
     if sayi1.isdigit():
