@@ -1,4 +1,3 @@
-
 def faktoriyel(giris):
     giris = int(giris)
     sayi_new = giris-1
@@ -15,3 +14,7 @@ if int(giris) < 0 :
 
 faktoriyel_goserim , sonuc = faktoriyel(giris)
 print(f"{giris} faktoriyelin gösterimi : {faktoriyel_goserim} , Sonucu : {sonuc} ")
+
+
+
+
